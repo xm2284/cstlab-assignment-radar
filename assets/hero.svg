@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBFAF7"/>
+      <stop offset="100%" stop-color="#F1F5FB"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg2)"/>
+  <circle cx="1090" cy="270" r="160" fill="#B45309" opacity="0.05"/>
+  <circle cx="90" cy="50" r="100" fill="#2563EB" opacity="0.05"/>
+
+  <text x="80" y="112" font-size="48" font-weight="700" fill="#1F2937">希冀作业雷达</text>
+  <rect x="80" y="134" width="72" height="5" rx="2.5" fill="#B45309"/>
+  <text x="80" y="186" font-size="23" fill="#4B5563">别再一个个点开看交没交了</text>
+  <text x="80" y="228" font-size="18" fill="#6B7280">扫全部课程 · 逐题数交了几道 · 每天中午 11:55 发到邮箱</text>
+
+  <g font-size="16">
+    <rect x="80" y="252" width="104" height="34" rx="17" fill="#FFFFFF" stroke="#E7DFD0"/>
+    <text x="132" y="274" fill="#B45309" text-anchor="middle">自动登录</text>
+
+    <rect x="196" y="252" width="120" height="34" rx="17" fill="#FFFFFF" stroke="#E7DFD0"/>
+    <text x="256" y="274" fill="#059669" text-anchor="middle">逐题核对</text>
+
+    <rect x="328" y="252" width="128" height="34" rx="17" fill="#FFFFFF" stroke="#E7DFD0"/>
+    <text x="392" y="274" fill="#2563EB" text-anchor="middle">倒计时提醒</text>
+  </g>
+
+  <!-- 右侧：手机里的作业列表 -->
+  <g transform="translate(810,44)">
+    <rect x="0" y="0" width="310" height="232" rx="16" fill="#FFFFFF" stroke="#E3E9F2"/>
+    <rect x="0" y="0" width="310" height="40" rx="16" fill="#F7F9FC"/>
+    <rect x="0" y="28" width="310" height="12" fill="#F7F9FC"/>
+    <text x="20" y="26" font-size="14" fill="#6B7280">待交作业</text>
+    <text x="270" y="26" font-size="14" fill="#D73A49" font-weight="700">3</text>
+
+    <!-- 行 1 -->
+    <g transform="translate(16,56)">
+      <rect width="278" height="46" rx="8" fill="#FFF5F6"/>
+      <rect x="0" y="0" width="4" height="46" rx="2" fill="#D73A49"/>
+      <text x="16" y="20" font-size="13" fill="#1F2937">实验三 · 进程调度</text>
+      <text x="16" y="37" font-size="11" fill="#8A94A6">5/8 题已交 · 剩 2 天 3 小时</text>
+    </g>
+
+    <!-- 行 2 -->
+    <g transform="translate(16,110)">
+      <rect width="278" height="46" rx="8" fill="#FFFBEB"/>
+      <rect x="0" y="0" width="4" height="46" rx="2" fill="#B45309"/>
+      <text x="16" y="20" font-size="13" fill="#1F2937">作业五 · 动态规划</text>
+      <text x="16" y="37" font-size="11" fill="#8A94A6">0/4 题已交 · 剩 6 小时</text>
+    </g>
+
+    <!-- 行 3 -->
+    <g transform="translate(16,164)">
+      <rect width="278" height="46" rx="8" fill="#F2FBF5"/>
+      <rect x="0" y="0" width="4" height="46" rx="2" fill="#059669"/>
+      <text x="16" y="20" font-size="13" fill="#1F2937">实验二 · 内存管理</text>
+      <text x="16" y="37" font-size="11" fill="#8A94A6">6/6 题已交 · 已全部完成</text>
+    </g>
+  </g>
+</svg>
