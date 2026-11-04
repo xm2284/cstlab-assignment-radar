@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif">
+  <rect width="1200" height="380" fill="#FFFFFF"/>
+
+  <text x="60" y="52" font-size="22" font-weight="700" fill="#1F2937">它的三个动作</text>
+  <rect x="60" y="66" width="52" height="4" rx="2" fill="#B45309"/>
+
+  <!-- 1 登录 -->
+  <g transform="translate(60,104)">
+    <rect width="330" height="150" rx="14" fill="#F7F9FC" stroke="#E3E9F2"/>
+    <circle cx="34" cy="34" r="14" fill="#B45309" opacity="0.15"/>
+    <text x="34" y="39" font-size="15" fill="#B45309" text-anchor="middle">1</text>
+    <text x="22" y="76" font-size="19" font-weight="600" fill="#1F2937">走校园统一认证登录</text>
+    <text x="22" y="104" font-size="14" fill="#6B7280">平台登录口有验证码 + AES，硬撞会锁号</text>
+    <text x="22" y="126" font-size="14" fill="#6B7280">改用无头浏览器走 CAS，拿回 cookie</text>
+  </g>
+
+  <path d="M402 179 L 436 179" stroke="#C7D2E4" stroke-width="2"/>
+  <path d="M430 173 L 438 179 L 430 185" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+
+  <!-- 2 扫课程 -->
+  <g transform="translate(450,104)">
+    <rect width="330" height="150" rx="14" fill="#F7F9FC" stroke="#E3E9F2"/>
+    <circle cx="34" cy="34" r="14" fill="#2563EB" opacity="0.15"/>
+    <text x="34" y="39" font-size="15" fill="#2563EB" text-anchor="middle">2</text>
+    <text x="22" y="76" font-size="19" font-weight="600" fill="#1F2937">扫全部课程的在期作业</text>
+    <text x="22" y="104" font-size="14" fill="#6B7280">逐门进课程页，取作业名、截止时间</text>
+    <text x="22" y="126" font-size="14" fill="#6B7280">和剩余倒计时</text>
+  </g>
+
+  <path d="M792 179 L 826 179" stroke="#C7D2E4" stroke-width="2"/>
+  <path d="M820 173 L 828 179 L 820 185" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+
+  <!-- 3 逐题 -->
+  <g transform="translate(840,104)">
+    <rect width="300" height="150" rx="14" fill="#F7F9FC" stroke="#E3E9F2"/>
+    <circle cx="34" cy="34" r="14" fill="#059669" opacity="0.15"/>
+    <text x="34" y="39" font-size="15" fill="#059669" text-anchor="middle">3</text>
+    <text x="22" y="76" font-size="19" font-weight="600" fill="#1F2937">点进详情页逐题核对</text>
+    <text x="22" y="104" font-size="14" fill="#6B7280">看每一题交没交，算出</text>
+    <text x="22" y="126" font-size="14" fill="#6B7280">已完成 / 部分 / 未开始</text>
+  </g>
+
+  <!-- 底部：状态图例 -->
+  <g transform="translate(60,282)">
+    <rect width="1080" height="70" rx="12" fill="#F7F9FC"/>
+    <text x="24" y="30" font-size="14" fill="#6B7280">判定口径</text>
+
+    <circle cx="140" cy="26" r="6" fill="#D73A49"/>
+    <text x="156" y="31" font-size="14" fill="#374151">未开始 0/N</text>
+
+    <circle cx="300" cy="26" r="6" fill="#B45309"/>
+    <text x="316" y="31" font-size="14" fill="#374151">部分完成 x/N</text>
+
+    <circle cx="470" cy="26" r="6" fill="#059669"/>
+    <text x="486" y="31" font-size="14" fill="#374151">已全部完成 N/N</text>
+
+    <text x="24" y="56" font-size="13" fill="#8A94A6">「交没交」按详情页最后一列的提交状态判断；只要这一题有提交记录，就记一次。</text>
+  </g>
+</svg>
