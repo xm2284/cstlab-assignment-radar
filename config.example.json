@@ -1,0 +1,11 @@
+{
+  "stid": "你的学号",
+  "pwd": "你的校园密码",
+  "email": {
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "sender": "你的QQ号@qq.com",
+    "auth_code": "QQ邮箱SMTP授权码",
+    "receiver": "你的QQ号@qq.com"
+  }
+}
