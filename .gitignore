@@ -1,0 +1,18 @@
+# 学号密码与运行日志，不要提交
+config.json
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Playwright 浏览器缓存
+ms-playwright/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
