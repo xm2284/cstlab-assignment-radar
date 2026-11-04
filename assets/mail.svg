@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif">
+  <rect width="1200" height="620" fill="#EDF1F7"/>
+
+  <rect x="60" y="36" width="1080" height="548" rx="14" fill="#FFFFFF" stroke="#DDE4EF"/>
+  <rect x="60" y="36" width="1080" height="44" rx="14" fill="#F4F6FA"/>
+  <rect x="60" y="66" width="1080" height="14" fill="#F4F6FA"/>
+  <circle cx="88" cy="58" r="6" fill="#E5E9F2"/>
+  <circle cx="108" cy="58" r="6" fill="#E5E9F2"/>
+  <circle cx="128" cy="58" r="6" fill="#E5E9F2"/>
+  <text x="160" y="63" font-size="14" fill="#8A94A6">收件箱 · 希冀作业提醒</text>
+
+  <!-- 标题 -->
+  <text x="100" y="122" font-size="24" font-weight="700" fill="#1F2937">希冀平台作业每日提醒</text>
+  <text x="100" y="156" font-size="16" fill="#4B5563">待做: <tspan font-weight="700" fill="#D73A49">3</tspan> 项 ｜ 已完成: <tspan font-weight="700" fill="#28A745">5</tspan> 项</text>
+
+  <!-- 未完成 -->
+  <rect x="100" y="176" width="4" height="22" fill="#D73A49"/>
+  <text x="118" y="194" font-size="17" font-weight="600" fill="#D73A49">⚠️ 未完成作业：</text>
+
+  <rect x="100" y="208" width="1000" height="176" rx="8" fill="#FFF9FA" stroke="#FFDCE0"/>
+  <text x="122" y="236" font-size="16" font-weight="600" fill="#1F2937">📚 《操作系统》</text>
+
+  <!-- 表头 -->
+  <rect x="122" y="248" width="956" height="28" fill="#FDEEF0"/>
+  <text x="132" y="267" font-size="12" fill="#8A6A70">作业</text>
+  <text x="586" y="267" font-size="12" fill="#8A6A70">状态</text>
+  <text x="760" y="267" font-size="12" fill="#8A6A70">截止时间</text>
+  <text x="960" y="267" font-size="12" fill="#8A6A70">还剩</text>
+
+  <text x="132" y="298" font-size="14" fill="#1F2937">实验三 · 进程调度</text>
+  <text x="586" y="298" font-size="14" fill="#B45309">🟡 部分完成 (5/8)</text>
+  <text x="760" y="298" font-size="14" fill="#374151">11-06 23:59</text>
+  <text x="960" y="298" font-size="14" fill="#D73A49" font-weight="700">2 天 3 小时</text>
+
+  <text x="132" y="330" font-size="14" fill="#1F2937">作业五 · 动态规划</text>
+  <text x="586" y="330" font-size="14" fill="#D73A49">🔴 未开始 (0/4)</text>
+  <text x="760" y="330" font-size="14" fill="#374151">11-04 18:00</text>
+  <text x="960" y="330" font-size="14" fill="#D73A49" font-weight="700">6 小时</text>
+
+  <text x="132" y="362" font-size="14" fill="#1F2937">实验四 · 死锁检测</text>
+  <text x="586" y="362" font-size="14" fill="#B45309">🟡 部分完成 (2/6)</text>
+  <text x="760" y="362" font-size="14" fill="#374151">11-09 23:59</text>
+  <text x="960" y="362" font-size="14" fill="#D73A49" font-weight="700">5 天</text>
+
+  <!-- 已完成 -->
+  <rect x="100" y="406" width="4" height="22" fill="#28A745"/>
+  <text x="118" y="424" font-size="17" font-weight="600" fill="#28A745">✅ 已完成作业（5 项）：</text>
+
+  <rect x="100" y="438" width="1000" height="88" rx="8" fill="#F6F8FA"/>
+  <text x="122" y="464" font-size="15" font-weight="600" fill="#586069">📚 《操作系统》</text>
+  <text x="140" y="488" font-size="13" fill="#6B7280">实验二 · 内存管理 · 11-02 23:59</text>
+  <text x="140" y="510" font-size="13" fill="#6B7280">实验一 · 启动流程 · 10-26 23:59</text>
+
+  <text x="600" y="464" font-size="15" font-weight="600" fill="#586069">📚 《算法设计与分析》</text>
+  <text x="618" y="488" font-size="13" fill="#6B7280">作业四 · 贪心 · 11-01 23:59</text>
+  <text x="618" y="510" font-size="13" fill="#6B7280">作业三 · 分治 · 10-24 23:59</text>
+</svg>
